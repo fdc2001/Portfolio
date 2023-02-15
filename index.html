@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Portfolio</title>
+    <meta name="author" content="Valentin SALAUD"/>
+    <meta name="keywords" content="Terminal Portfolio Javascript"/>
+    <meta name="reply-to" content="valentin.salaud@mmibordeaux.com"/>
+    <meta name="Description" content="Terminal Portfolio by Valentin SLD"/>
+    <meta name="copyright" content="Open Source"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/normalize.css"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/style.css"
+    />
+</head>
+<body>
+<div class="animation">
+    <a href="#" id="start">Power On</a>
+    <!--
+    <img src="img/animation.gif" alt="animation start launching" />
+    -->
+</div>
+
+<div class="container">
+    <div class="resize-drag">
+        <div class="top">
+            <p id="toped">My Works</p>
+            <img id="close" src="img/X.png"/>
+        </div>
+        <div class="undrag">
+            <a class="linkTop" href="#">File</a>
+            <a class="linkTop" href="#">Edit</a>
+            <a class="linkTop" href="#">View</a>
+            <a class="linkTop" href="#">Help</a>
+
+            <!-- Open Page -->
+            <div class="prez">
+                <a
+                        href="#"
+                        class="icon btn-direction"
+                        data-direction-project="p1"
+                        data-top="Estagio - Capensis LDA"
+                >
+                    <img class="hover" src="img/portfolioHover.png" alt="folder"/>
+                    <img src="img/portfolio.png" alt="Tranalho realizado na empresa"/>
+                    <p>Estagio - Capensis LDA</p>
+                </a>
+                <a
+                        href="#"
+                        class="icon btn-direction"
+                        data-direction-project="p2"
+                        data-top="Capensis LDA"
+                >
+                    <img class="hover" src="img/portfolioHover.png" alt="folder"/>
+                    <img src="img/portfolio.png" alt="Tranalho realizado na empresa"/>
+                    <p>Capensis LDA</p>
+                </a>
+              <a
+                      href="#"
+                      class="icon btn-direction"
+                      data-direction-project="p3"
+                      data-top="Smart Consulting"
+              >
+                <img class="hover" src="img/portfolioHover.png" alt="folder"/>
+                <img src="img/portfolio.png" alt="Tranalho realizado na empresa"/>
+                <p>Smart Consulting</p>
+              </a>
+            </div>
+            <!-- end page-->
+
+            <!-- Page 1 -->
+            <div class="prez prez-2" id="p1">
+                <a href="#" class="btn btn-back">Voltar</a>
+                <br/>
+                <br/>
+                <h3>Capensis LDA</h3>
+                <p>Função: Estagiario</p>
+                <p>31/01/2020 - 31/05/2020 </p>
+                <br>
+                <b>Estagio</b>
+                <br/>
+                <br/>
+                <b>Trabalho realizado na empresa</b>
+                <br/>
+                <p>Desenvolvimento de Software, incluindo aplicação Mobile para sistema de Picagem de Ponto de um
+                    programa pré-existente</p>
+                <p>Alteração de Template de Projeto e Desenvolvimento de Programa de Interligação de Programa de
+                    Faturação para Loja Online.</p>
+
+                <br/>
+                <b>Tecnologias utilizadas:</b>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>ReactJS</li>
+                    <li>React Native</li>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Shell scripts</li>
+                </ul>
+
+                <br/><br/>
+            </div>
+            <!-- end 1-->
+
+            <!-- Page 2 -->
+            <div class="prez prez-2" id="p2">
+                <a href="#" class="btn btn-back">Voltar</a>
+                <br/>
+                <br/>
+                <h3>Capensis LDA</h3>
+                <p>Função: Responsavel departamento técnico e desenvolvimento</p>
+                <p>01/06/2020 - 25/03/2022 </p>
+                <br>
+                <p>
+                    No tempo em que estive na empresa fiquei responsável em diversos
+                    setores como:
+                </p>
+                <br/>
+                <ul>
+                    <li>Suporte técnico em programas de faturação (Sage 50c, Zonesoft)</li>
+                    <li>Suporte técnico do programa de contabilidade (Sage for Accountants)</li>
+                    <li>Desenvolvimento de varios sowftwares</li>
+                </ul>
+
+                <p>Alguns dos projetos desenvolvidos:</p>
+                <br/>
+                <ul>
+                    <li>Aplicação de sincronização de dados com programa de faturação Sage 50c</li>
+                    <li>Aplicação de gestão de gabinete veterinário</li>
+                    <li>Plataforma de gestão de vendedores em PWA</li>
+                    <li>Plataforma de mailing com microserviços para envio de emails</li>
+                </ul>
+
+                <br/>
+                <b>Tecnologias utilizadas:</b>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>ReactJS</li>
+                    <li>React Native</li>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Shell scripts</li>
+                    <li>Python</li>
+                </ul>
+
+                <br/><br/>
+            </div>
+            <!-- end 2-->
+
+          <!-- Page 3 -->
+          <div class="prez prez-2" id="p3">
+            <a href="#" class="btn btn-back">Voltar</a>
+            <br/>
+            <br/>
+            <h3>Smart Consulting</h3>
+            <p>Função: Fullstack Developer</p>
+            <p>28/03/2022 - ATUAL </p>
+            <br>
+            <p>
+              Desenvolvimento de diversos softwares para clientes com as seguintes tecnologias:
+            </p>
+            <br/>
+            <ul>
+              <li>Angular</li>
+              <li>Laravel</li>
+              <li>Bootstrap</li>
+              <li>Migração de base de dados em SQL Server para MySQL</li>
+            </ul>
+            <br/><br/>
+          </div>
+          <!-- end 3-->
+        </div>
+    </div>
+</div>
+
+<!--  -->
+<div id="terminal">
+    <a id="before"></a>
+</div>
+
+<!-- Commander -->
+<div id="cmd" onclick="$('setter').focus();">
+      <textarea
+              type="text"
+              id="setter"
+              onkeydown="writeit(this, event);moveIt(this.value.length, event)"
+              onkeyup="writeit(this, event)"
+              onkeypress="writeit(this, event);"
+              autofocus
+      ></textarea>
+    <div id="getter">
+        <span id="writer"></span><b class="cursor" id="cursor">█</b>
+    </div>
+</div>
+
+<!-- scripts -->
+<script src="js/interacth.js"></script>
+
+<script src="js/text.js"></script>
+<script src="js/caret.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
